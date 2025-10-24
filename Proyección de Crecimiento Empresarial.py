@@ -4,7 +4,6 @@ Archivo: Proyección de Crecimiento Empresarial.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 Proyección de Crecimiento Empresarial.
 """
@@ -52,4 +51,5 @@ plt.ylabel('Ventas (millones)')
 plt.title('Modelo de Determinismo Estocástico: Proyección de Ventas')
 plt.legend()
 plt.grid(True, alpha=0.3)
+
 plt.show()
