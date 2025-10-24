@@ -4,7 +4,6 @@ Archivo: Red de Pequeño Mundo.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 Red de Pequeño Mundo.
 """
@@ -28,4 +27,5 @@ def crear_red_pequeno_mundo(n, k, p):
 # Ejemplo
 G, L, C = crear_red_pequeno_mundo(100, 4, 0.1)
 print(f"Longitud de camino promedio: {L:.3f}")
+
 print(f"Coeficiente de clustering: {C:.3f}")
