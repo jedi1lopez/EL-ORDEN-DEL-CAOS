@@ -4,7 +4,6 @@ Archivo: calidad de datos.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 calidad de datos.
 """
@@ -16,4 +15,5 @@ def validar_datos(datos):
         print("Advertencia: Muestra pequeña")
     if stats.shapiro(datos)[1] < 0.05:
         print("Advertencia: No normalidad detectada")
+
     return True
