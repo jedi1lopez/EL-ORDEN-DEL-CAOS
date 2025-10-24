@@ -4,7 +4,6 @@ Archivo: Optimización de Cartera Adaptativa.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 Optimización de Cartera Adaptativa.
 """
@@ -50,4 +49,5 @@ class CarteraAdaptativa:
             pesos = np.random.random(self.n_activos)
             pesos = pesos / np.sum(pesos)  # Normalizar
             poblacion.append(pesos)
+
         return poblacion
