@@ -4,7 +4,6 @@ Archivo: Diagrama de Bifurcación.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 Diagrama de Bifurcación.
 """
@@ -38,4 +37,5 @@ def generar_bifurcacion():
     plt.show()
 
 # Generar diagrama
+
 generar_bifurcacion()
