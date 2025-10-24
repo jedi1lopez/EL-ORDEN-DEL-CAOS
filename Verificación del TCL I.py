@@ -4,7 +4,6 @@ Archivo: Verificación del TCL.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 Verificación del TCL.
 """
@@ -48,4 +47,5 @@ def verificar_tcl(n_muestras=1000, tam_muestra=30):
     print(f"¿Normal? {'Sí' if shapiro_p > 0.05 else 'No'}")
 
 # Ejecutar verificación
+
 verificar_tcl()
