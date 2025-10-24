@@ -4,7 +4,6 @@ DETERMINISMO ESTOCÁSTICO: MODELO DE CRECIMIENTO BACTERIANO
 ============================================================
 
 Autor: Jetro Ramón López Hernández
-Institución: Universidad Nacional Experimental Simón Rodríguez (UNESR)
 Fecha: 14-04-2025
 
 Descripción:
