@@ -4,7 +4,6 @@ Archivo: integración con machine learning.py
 Autores: Dennis Zavala & Jetro López.
 Fecha: 2025-30-07
 Licencia: MIT
-UNESR, Valencia, Carabobo, Republica bolivariana de Venezuela.
 Descripción:
 integración con machine learning.
 """
@@ -27,4 +26,5 @@ class ModeloHibrido:
     def predict(self, X):
         tendencia = [self.tendencia_base(t) for t in X]
         residuales = self.modelo_residual.predict(X.reshape(-1,1))
+
         return np.array(tendencia) + residuales
